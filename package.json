@@ -14,7 +14,8 @@
     "airtable:get-all-fields": "tsx airtable/getAllFields.ts",
     "airtable:dao-example": "tsx airtable/dao/example.ts",
     "airtable:test-get470": "tsx airtable/dao/testGet470.ts",
-    "automation:relativistic": "tsx automations/relativistic-reach-out.ts"
+    "automation:relativistic": "tsx automations/relativistic-reach-out.ts",
+    "automation:ruckus": "tsx automations/ruckus-deal-registration.ts"
   },
   "keywords": [],
   "author": "",

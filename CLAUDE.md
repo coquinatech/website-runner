@@ -22,6 +22,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Automations:**
 - `npm run automation:relativistic -- <application-number>` - Fill relativistic.io form with Form 470 data
+- `npm run automation:ruckus -- <application-number>` - Fill Ruckus partner portal deal registration with Form 470 data
 
 ## Architecture Overview
 
