@@ -1,0 +1,32 @@
+{
+  "name": "recorder",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "airtable:get-one": "tsx airtable/getOneRecord.ts",
+    "airtable:get-all-fields": "tsx airtable/getAllFields.ts",
+    "airtable:dao-example": "tsx airtable/dao/example.ts",
+    "airtable:test-get470": "tsx airtable/dao/testGet470.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "dotenv": "^17.2.2"
+  }
+}
